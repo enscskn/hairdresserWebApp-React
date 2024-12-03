@@ -1,6 +1,7 @@
 import React from 'react';
 import { Scissors, Clock, Star, Phone } from 'lucide-react';
 import { Gallery } from '../components/Gallery';
+import { Link } from 'react-router-dom';
 
 export function Home() {
   return (
@@ -16,12 +17,12 @@ export function Home() {
           <div className="text-center text-white">
             <h1 className="text-3xl md:text-5xl font-bold mb-4">İbrahim Yalman</h1>
             <p className="text-lg md:text-xl mb-8">Profesyonel saç tasarımında yeni trendiniz!</p>
-            <a
-              href="/randevu"
-              className="bg-pink-600 text-white px-6 md:px-8 py-2 md:py-3 rounded-full text-base md:text-lg font-semibold hover:bg-pink-700 transition-colors"
+            <Link
+              to="/randevu"
+              className="bg-pink-600 text-white px-6 md:px-8 py-2 md:py-3 rounded-full text-base md:text-lg font-semibold hover:bg-pink-700 transition-colors inline-block"
             >
               Hemen Randevu Al
-            </a>
+            </Link>
           </div>
         </div>
       </section>
