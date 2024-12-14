@@ -4,7 +4,7 @@ const galleryImages = [
   'https://iavogue.tmgrup.com.tr/original/22-04/25/hungvanngo_277114400_373911658076759_3107063649180462360_n.jpg',
   'https://images.unsplash.com/photo-1562322140-8baeececf3df?auto=format&fit=crop&w=600&q=80',
   'https://images.unsplash.com/photo-1595476108010-b4d1f102b1b1?auto=format&fit=crop&w=600&q=80',
-  'https://galatano5beauty.com/wp-content/uploads/2022/08/sac-kesim-fiyatlari.jpg',
+  'https://makas.com.tr/wp-content/uploads/2021/04/Mukemmel-sac-gorunumu-icin-tuyolar.jpg',
 ];
 
 export function Gallery() {

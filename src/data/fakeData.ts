@@ -3,13 +3,13 @@ import { User, Appointment, Service } from '../types';
 export const fakeUsers: User[] = [
   {
     id: '1',
-    name: 'İbrahim Yalman',
+    name: 'İbrahim',
     email: 'ibrahim@example.com',
     role: 'admin',
   },
   {
     id: '2',
-    name: 'Ayşe Demir',
+    name: 'Ayşe',
     email: 'ayse@example.com',
     role: 'user',
   },

@@ -15,7 +15,7 @@ export function Home() {
         />
         <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center px-4">
           <div className="text-center text-white">
-            <h1 className="text-3xl md:text-5xl font-bold mb-4">İbrahim Yalman</h1>
+            <h1 className="text-3xl md:text-5xl font-bold mb-4">Kuaför</h1>
             <p className="text-lg md:text-xl mb-8">Profesyonel saç tasarımında yeni trendiniz!</p>
             <Link
               to="/randevu"
@@ -63,7 +63,7 @@ export function Home() {
               </p>
               <div className="flex items-center space-x-2">
                 <Phone className="w-5 h-5 text-pink-600" />
-                <span className="text-lg">+90 533 038 1417</span>
+                <span className="text-lg">+90 555 555 5555</span>
               </div>
             </div>
             <div className="w-full md:w-1/2">

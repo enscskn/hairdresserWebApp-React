@@ -8,11 +8,11 @@ export function Footer() {
       <div className="container mx-auto px-4 py-8 md:py-12">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
           <div className="text-center sm:text-left">
-            <h3 className="text-white text-lg font-semibold mb-4">İbrahim Yalman</h3>
+            <h3 className="text-white text-lg font-semibold mb-4">Kuaför</h3>
             <p className="mb-4">Profesyonel saç tasarımında yeni trendiniz</p>
             <div className="flex justify-center sm:justify-start space-x-4">
               <a 
-                href="https://www.facebook.com/ibrahim.yalmann/" 
+                href="https://www.facebook.com/" 
                 className="hover:text-pink-500"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -20,7 +20,7 @@ export function Footer() {
                 <Facebook size={20} />
               </a>
               <a 
-                href="https://www.instagram.com/ibrahim.yalmann/" 
+                href="https://www.instagram.com/" 
                 className="hover:text-pink-500"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -28,7 +28,7 @@ export function Footer() {
                 <Instagram size={20} />
               </a>
               <a 
-                href="https://www.x.com/ibrahim.yalmann/" 
+                href="https://www.x.com/" 
                 className="hover:text-pink-500"
                 target='_blank'
                 rel='noopener noreferrer'>
@@ -42,15 +42,15 @@ export function Footer() {
             <div className="space-y-3">
               <div className="flex items-center justify-center sm:justify-start space-x-3">
                 <MapPin size={18} />
-                <span>Mezopotamya Mahallesi No:30/A, Diyarbakır</span>
+                <span>İstanbul</span>
               </div>
               <div className="flex items-center justify-center sm:justify-start space-x-3">
                 <Phone size={18} />
-                <span>+90 533 038 1417</span>
+                <span>+90 555 555 5555</span>
               </div>
               <div className="flex items-center justify-center sm:justify-start space-x-3">
                 <Mail size={18} />
-                <span>info@ibrahimyalman.com</span>
+                <span>info@kuaför.com</span>
               </div>
             </div>
           </div>
@@ -72,7 +72,7 @@ export function Footer() {
         </div>
         
         <div className="border-t border-gray-800 mt-8 pt-8 text-center">
-          <p>&copy; {new Date().getFullYear()} İbrahim Yalman. Tüm hakları saklıdır.</p>
+          <p>&copy; {new Date().getFullYear()} Kuaför. Tüm hakları saklıdır.</p>
         </div>
       </div>
     </footer>

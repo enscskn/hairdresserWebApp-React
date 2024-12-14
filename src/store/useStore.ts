@@ -24,7 +24,6 @@ export const useStore = create<Store>((set, get) => ({
     );
   },
   login: (email, password) => {
-    // Simüle edilmiş giriş kontrolü
     const user = fakeUsers.find(u => u.email === email);
     if (user && password === '123456') {
       set({ user });

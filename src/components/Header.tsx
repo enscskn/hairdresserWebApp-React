@@ -13,7 +13,7 @@ export function Header() {
         <div className="flex items-center justify-between">
           <Link to="/" className="flex items-center space-x-2">
             <Scissors className="h-6 w-6 text-pink-600" />
-            <span className="text-xl font-bold">İbrahim Yalman</span>
+            <span className="text-xl font-bold">Kuaför</span>
           </Link>
           
           {/* Mobile menu button */}
